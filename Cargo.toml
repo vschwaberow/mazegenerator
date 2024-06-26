@@ -1,0 +1,9 @@
+[package]
+name = "mazegenerator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Volker Schwaberow <volker@schwaberow.de>"]
+
+[dependencies]
+clap = { version = "4.5.7", features = ["cargo", "env", "derive"] }
+rand = "0.8.5"
